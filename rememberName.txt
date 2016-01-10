@@ -1,4 +1,4 @@
-Without configuration git will ask for your username each time you log in. If you want it to remember this.
+Without configuration git will ask for your username each time you push commits. If you want to avoid this.
 
 1. Go to the repository with a file manager
 	You should see a file called .git . If you can't you need to configure the file manager to show hidden files.
