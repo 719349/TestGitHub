@@ -1,0 +1,15 @@
+Without configuration git will ask for your username each time you log in. If you want it to remember this.
+
+1. Go to the repository with a file manager
+	You should see a file called .git . If you can't you need to configure the file manager to show hidden files.
+
+2. In .git there is a file called config.
+	Open it in a text editor.
+
+3. There is a section called [remote "origin"] this has information about where the data is pushed to.
+	Look for the line
+		url = https://github.com/719349/TestGitHub
+
+	Put your github username followed by @ between https:// and github
+	E.g.
+		url = https://andrewstanton94@github.com/719349/TestGitHub
