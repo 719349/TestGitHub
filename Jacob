@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Project Scheduler </title>
+    <link href="mystyle.css" rel="stylesheet">
+	<h1> Project Scheduler <h1>
+  </head>
+  <body>
+	
+	
+    <div class="first">
+      <div class="logos">
+        <ol id="liinformationdesignl">
+        <li><a href="https://www.facebook.com/TheFMbible?ref=aymt_homepage_panel" id="logo"> <img src="fblogo.png" alt="Join us on Facebook" style="width:50px;height:50px"></a></li>
+        <li><a href="https://twitter.com/TheFMBible" id="logo"> <img src="twitterlogo.png" alt="Join us on Facebook" style="width:53px;height:53px"></a></li>
+        <li><a href="https://www.youtube.com/channel/UCrrJqmsApe8bAWUAR_nntNA" id="logo"> <img src="yotubelogo.png" alt="Join us on Facebook" style="width:50px;height:50px"></a></li>
+        </ol>
+        <img src="banner.png" alt="banner" id="banner">
+      </div>
+    <div class="second">
+	<div ="homebar">
+		<li><b>Home</b></li>
+		<li><a href="about.html">About Us</a></li> 
+		<li><a href="oursaves.html">Our Saves</a></li>
+	</div>
+      </div>  
+    
+      
+      
+    </div> 
+    <div class="main" style="word-wrap: break-word; width: 1000px" align="center">
+<p>Hello this is our website for our app hello hello hello hello hello hello hello hello hello mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+</div>
+  </body>
+  </div>
+</html>
