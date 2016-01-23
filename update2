@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="insewebsite.css"/>
+		
+	</head>
+	
+	<body style="max-width=1000px">
+	
+	<div class="menu-bar">
+
+		<ul id="avmenu">
+		<li class="current">
+		<div class="dropdown">
+			<button class="dropbtn">Home</button>
+			<div class="dropdown-content">
+				<a href="#">Log in</a>
+
+			</div>
+		</div>
+		</li>
+		<li>
+		<div id="navbar1">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		
+		<li>
+		<div id="navbar2">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		
+		<li>
+		<div id="navbar3">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		
+		<li>
+		<div id="navbar4">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		
+		<li>
+		<div id="navbar5">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		</ul>
+	</div>
+	
+	</body>
+</html>
