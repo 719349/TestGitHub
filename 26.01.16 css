@@ -1,0 +1,133 @@
+body {
+	background-color: #e5f7ff
+}
+
+#navbar1 {
+   float:center;
+	position: fixed;
+	top:10px;
+    margin-left:500px;
+	
+}
+#navbar2 {
+    float:center;
+	position: fixed;
+	top:10px;
+    margin-left:300px;
+	
+}
+
+#navbar3 {
+    float:center;
+	position: fixed;
+	top:10px;
+    margin-left:400px;
+	
+}
+
+#navbar4 {
+    float:center;
+	position: fixed;
+	top:10px;
+    margin-left:500px;
+	
+}
+
+#navbar5 {
+    float: center;
+	position: fixed;
+	top:10px;
+    margin-left:600px;
+	
+}
+
+.li {
+	display: inline;
+}
+}
+
+
+#footer{
+	clear: both;
+	position: relative;
+	bottom: -150px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color:#80d8ff;
+}
+
+.dropbtn {
+    background-color:#80d8ff;
+    color:white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+	position: absolute;
+	top:10px;
+    color:#80d8ff;
+	float:right;
+	max-width:100%;
+	
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font: 15px arial, sans-serif;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font: 15px arial, sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+	font: 15px arial, sans-serif;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #009fe6;
+}
+
+.menu-bar
+{
+	width: 100%;
+	}
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+  
+ul#avmenu li {
+display: inline;
+width:100%;
+}
+
+body{
+max-width: 100%;
+margin: 0 auto !important;
+float: none !important;
+}
+
+</style>
