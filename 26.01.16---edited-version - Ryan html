@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="insewebsitetest.css"/>
+		
+	</head>
+	
+	<body style="max-width=1000px">
+	
+	<div class="menu-bar">
+
+		<ul id="avmenu">
+		<li class="current">
+		<div class="dropdown">
+			<button class="dropbtn">Home</button>
+			<div class="dropdown-content">
+				<a href="#">Log in</a>
+
+			</div>
+		</div>
+		</li>
+		<li>
+		<div id="navbar1">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		
+		<li>
+		<div id="navbar2">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		
+		<li>
+		<div id="navbar3">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		
+		<li>
+		<div id="navbar4">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		
+		<li>
+		<div id="navbar5">
+			<div class="dropdown">
+				<button class= "dropbtn">Home</button>
+				<div class="dropdown-content">
+					<a href="#">Log in</a>
+					<a href="#">Sign Up</a>
+				</div>		
+			</div>
+		</div>
+		</li>
+		</ul>
+	</div>
+	
+	
+	
+	
+            <div class ="centre1">
+			
+			
+			<div class ="innerimage">
+			
+			<img src="ExcelGantChart.jpg" class="thumbnail" style="height:100px; width:100px;">
+			
+			
+			</div>
+			
+			</div> 
+			
+			
+			
+			<div class ="centre2">
+			
+			<div class ="innerimage2">
+			
+			<img src="WorkBreakdownTree.jpeg" class="thumbnail" style="height:100px; width:100px;">
+			
+					
+			
+			</div>
+			
+			</div>
+			
+			
+			
+			
+	
+	</body>
+</html>
