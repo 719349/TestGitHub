@@ -1,0 +1,442 @@
+body {
+  background-image: url();
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+p {
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.articles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.article {
+  color: #222;
+  background: rgba(255,255,255,.9);
+  border-spacing: 2px;
+  border-color: gray;
+  font-family: arial,sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+.current .item {
+  background: rgba(206,220,206,.9);
+}
+
+.item {
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  
+}
+
+.item .source {
+  margin-left: 20px;
+}
+
+.item .title {
+  font-weight: bold;
+}
+
+.item .pubdate {
+  margin-right: 20px;
+}
+
+.item .pubdate {
+  text-align: right;  
+}
+
+.description {
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description h1 {
+  margin-top: 0px;
+  font-size: 23px;
+}
+
+/* all previous code */
+body {
+	background-color: #e5f7ff
+}
+
+#navbar1 {
+   float:center;
+	position: fixed;
+	top:10px;
+    margin-left:500px;
+	
+}
+#navbar2 {
+    float:center;
+	position: fixed;
+	top:10px;
+    margin-left:300px;
+	
+}
+
+#navbar3 {
+    float:center;
+	position: fixed;
+	top:10px;
+    margin-left:400px;
+	
+}
+
+#navbar4 {
+    float:center;
+	position: fixed;
+	top:10px;
+    margin-left:500px;
+	
+}
+
+#navbar5 {
+    float: center;
+	position: fixed;
+	top:10px;
+    margin-left:600px;
+	
+}
+
+.li {
+	display: inline;
+}
+
+
+.centre1{
+
+  margin-top:200px;
+  margin-left: 250px;
+  position: center;
+  width: 500px;
+  height: 200px;
+  background-color: #ccc;
+  border-radius: 3px;
+  
+}
+
+.centre2{
+
+  margin-top:100px;
+  margin-left: 250px;
+  position: center;
+  width: 500px;
+  height: 200px;
+  background-color: #ccc;
+  border-radius: 3px;
+  
+}
+.centre3{
+
+  margin-top:100px;
+  margin-left: 250px;
+  position: center;
+  width: 500px;
+  height: 200px;
+  background-color: #ccc;
+  border-radius: 3px;
+  
+}
+
+.innerimage
+
+{
+   width:20px; /*width of your image*/
+   height:20px; /*height of your image*/
+   margin-left:210px; /* If you want no margin */
+   padding:0; /*if your want to padding */
+   margin-top:25px;
+
+}
+
+.innerimage2
+
+{
+   width:20px; /*width of your image*/
+   height:20px; /*height of your image*/
+   margin-left:210px; /* If you want no margin */
+   padding:0; /*if your want to padding */
+   margin-top:25px;
+
+}
+
+.innerimage3
+
+{
+   width:20px; /*width of your image*/
+   height:20px; /*height of your image*/
+   margin-left:210px; /* If you want no margin */
+   padding:0; /*if your want to padding */
+   margin-top:25px;
+
+}
+
+.thumbnail:hover {
+
+    transform:scale(1.75,1.75);
+	transform-origin:0 0;
+}
+
+#inner {
+    width: 50%;
+    /* Set the margin-left and margin-right automatically set */
+    margin: 0 auto; 
+}
+
+#footer{
+	clear: both;
+	position: relative;
+	bottom: -150px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color:#80d8ff;
+}
+
+.dropbtn {
+    background-color:#80d8ff;
+    color:white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+	position: absolute;
+	top:10px;
+    color:#80d8ff;
+	float:right;
+	max-width:100%;
+	
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font: 15px arial, sans-serif;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font: 15px arial, sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+	font: 15px arial, sans-serif;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #009fe6;
+}
+
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.menu-bar
+{
+	width: 100%;
+	}
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+  
+ul#avmenu li {
+display: inline;
+width:100%;
+}
+
+body{
+max-width: 100%;
+margin: 0 auto !important;
+float: none !important;
+}
+
+form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  margin-top: 150px;
+  margin-left: 300px;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: bold;
+  color: #09C;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+input {
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea#feedback {
+  width: 375px;
+  height: 150px;
+  display:block;
+}
+
+
+
+
+
+#ChartButton {
+    position: relative;
+    background-color: #80d8ff;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+	margin-left:200px;
+}
+#ChartButton:hover {
+    background-color:#0099ff; 
+    
+}
+#ChartButton:after {
+    content: "";
+    background: white;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+#ChartButton:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+#signin {
+    background-color:#80d8ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#buttongap1{
+
+  margin-top:200px;
+  margin-right: 750px;
+  position:center;
+  width: 500px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 3px;
+  
+}
+
+#buttongap2{
+
+  margin-top:200px;
+  margin-left: 750px;
+  position:center;
+  width: 500px;
+  height: 150px;
+  background-color: #ccc;
+  border-radius: 3px;
+  
+}
+
+#buttongap3{
+
+  margin-top:200px;
+  margin-left: 750px;
+  position:center;
+  width: 500px;
+  height: 150px;
+  background-color: #ccc;
+  border-radius: 3px;
+  
+}
+
+
+
+h1
+{
+text-align:center;
+margin-top:150px;
+
+}
+
